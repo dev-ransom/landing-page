@@ -67,7 +67,7 @@ const Networking = () => {
 				></button>
 			</div>
 			<div className="pt-[100px] flex justify-between items-center w-full lg:px-20 gap-16 lg:flex-row flex-col">
-				<div className="lg:w-[450px] flex flex-col lg:gap-4 w-full lg:text-left text-center lg:items-left items-center gap-6">
+				<div className="lg:w-[450px] flex flex-col lg:gap-4 w-full lg:text-left text-center lg:items-start items-center gap-6">
 					<h4 className="lg:text-[32px] text-[24px] text-white">Our Comfortable Rates</h4>
 					<p className="text-textColor leading-[1.75] text-[18px]">
 						Start working with{" "}

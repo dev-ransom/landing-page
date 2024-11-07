@@ -13,7 +13,7 @@ const Section1 = () => {
 				/>
 			</div>
 			<div className="flex-1 lg:pt-24 pt-8">
-				<h2 className="lg:text-[30px] mb-3 text-[28px]">Change the way you build websites</h2>
+				<h2 className="lg:text-[30px] mb-3 text-[28px] text-white">Change the way you build websites</h2>
 				<p className="text-textColor mb-4">
 					You can combine all the Landrick templates into a single one, you can
 					take a <br /> component from the Application theme and use it in the

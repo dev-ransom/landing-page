@@ -11,7 +11,7 @@ const Section2 = () => {
 	return (
 		<div className="flex w-full flex-col-reverse lg:flex-row px-3 lg:px-20 justify-between gap-4 pb-7 ">
 			<div className="lg:w-[700px] lg:pt-24 pt-3 w-full">
-				<h2 className="lg:text-[30px] mb-3 text-[28px]">
+				<h2 className="lg:text-[30px] mb-3 text-[28px] text-white">
 					Speed up your development <br />
 					with <span className="text-baseColor font-semibold">Landrick.</span>
 				</h2>

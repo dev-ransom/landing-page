@@ -55,14 +55,14 @@ const Navbar = ({
 					{isOpen ? (
 						<IoIosClose
 							size={36}
-							className={`transform transition-transform duration-300 ${
+							className= {`transform transition-transform duration-300 text-white ${
 								isOpen ? "rotate-90" : "rotate-0"
 							}`}
 						/>
 					) : (
 						<IoIosMenu
 							size={36}
-							className={`transform transition-transform duration-300 ${
+							className= {`transform transition-transform duration-300 text-white ${
 								isOpen ? "rotate-90" : "rotate-0"
 							}`}
 						/>
