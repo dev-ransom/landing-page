@@ -36,7 +36,7 @@ const Navbar = ({
 					<Link
 						href={link.href}
 						key={link.key}
-						className="uppercase flexCenter regular-16"
+						className="uppercase flexCenter text-white text-[13px]"
 					>
 						{link.label}
 					</Link>
@@ -47,7 +47,7 @@ const Navbar = ({
 					<CiSettings className="font-semibold" size={24} />
 				</div>
 				<div className="bg-baseColor transition duration-300 h-[36px] w-[36px] cursor-pointer rounded-full flex justify-center items-center text-white hover:bg-basehover">
-					<Link href="https://thefullsnackdevs.shop/">
+					<Link href="http://shop.thefullsnackdevs.com/">
 						<CiShoppingCart className="font-semibold" size={24} />
 					</Link>
 				</div>

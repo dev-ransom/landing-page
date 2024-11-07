@@ -14,11 +14,11 @@ import { FiBook } from "react-icons/fi";
 export default function Home() {
 	return (
 		<main className="bg-[#202942] w-full h-full">
-			<Navbar bgColor='bg-bgColor' boxShadow="shadow-sm" />
-			<div className="lg:pt-[36vh] pt-[19vh] lg:px-20 h-full pb-10 bg-bgColor">
+			<Navbar bgColor='bg-[#202942]' boxShadow="shadow-sm" />
+			<div className="lg:pt-[20vh] pt-[15vh] lg:px-20 h-full pb-10 ">
 				<div className="w-full flex-col flex lg:flex-row px-3">
-					<div className="lg:flex-1 md:pr-10 lg:text-center md:text-left mt-28 w-full">
-						<h1 className="capitalize text-[45px]">
+					<div className="lg:flex-1 md:pr-10 lg:text-center md:text-left mt-10 w-full">
+						<h1 className="capitalize text-[45px] text-white">
 							our creativity is your
 							<span className="text-baseColor"> success</span>
 						</h1>

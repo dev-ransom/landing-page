@@ -10,8 +10,8 @@ const config: Config = {
 		extend: {
 			colors: {
 				bgColor: "#F0EFF9",
-				baseColor: "#5512F8",
-				basehover: "#6912f8",
+				baseColor: "#8a00c7",
+				basehover: "#8a00c7",
 				footer: "#1f2942",
 				textColor: "#8492a6",
 			},

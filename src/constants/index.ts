@@ -1,10 +1,7 @@
 export const NAV_LINKS = [
-	{ href: "/", key: "home", label: "Home" },
-	{ href: "/", key: "landing", label: "Landing" },
-	{ href: "/", key: "pages", label: "Pages" },
-	{ href: "/", key: "demos ", label: "Demos " },
-	{ href: "/", key: "components", label: "Components" },
-	{ href: "/", key: "Docs", label: "Docs" },
+	{ href: "/about", key: "who we are ", label: "who we are" },
+	{ href: "/contact-us", key: "contactUS", label: "contact us" },
+	
 ];
 
 export const cardImage = [
