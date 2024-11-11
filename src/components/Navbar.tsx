@@ -1,3 +1,4 @@
+"use client"
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +15,6 @@ const Navbar = ({
 }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
-	// Toggle function for the mobile menu
 	const toggleMenu = () => {
 		setIsOpen(!isOpen);
 	};

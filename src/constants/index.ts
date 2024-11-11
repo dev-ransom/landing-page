@@ -1,5 +1,5 @@
 export const NAV_LINKS = [
-	{ href: "/about", key: "who we are ", label: "who we are" },
+	{ href: "/about-us", key: "who we are ", label: "who we are" },
 	{ href: "/contact-us", key: "contactUS", label: "contact us" },
 	
 ];
@@ -70,20 +70,57 @@ export const HowItWorksData = [
 ];
 
 export const companyInfo = [
-	{ id: 1, label: "About Us", href: "" },
-	{ id: 2, label: "Services", href: "" },
-	{ id: 3, label: "Team", href: "" },
-	{ id: 4, label: "Pricing", href: "" },
-	{ id: 5, label: "Project", href: "" },
+	{ id: 1, label: "About Us", href: "/about-us" },
 	{ id: 6, label: "Careers", href: "" },
 	{ id: 7, label: "Blog", href: "" },
-	{ id: 8, label: "Login", href: "" },
 ];
 
 export const useFulLink = [
 	{ id: 1, label: "Term of Services", href: "" },
 	{ id: 2, label: "Privacy Policy", href: "" },
-	{ id: 3, label: "Documentation", href: "" },
-	{ id: 4, label: "Changelog", href: "" },
-	{ id: 5, label: "Components", href: "" },
 ];
+
+
+export const whyChooseUs = [
+	{
+	  title: "Tailored Strategies",
+	  description: "We develop customized solutions that address your unique business needs, ensuring the highest impact.",
+	},
+	{
+	  title: "Results-Driven",
+	  description: "Our focus is on metrics that matter – from increased traffic to higher conversions, we deliver measurable growth.",
+	},
+	{
+	  title: "Experienced Team",
+	  description: "With experts across web development, marketing, training, and recruitment, we handle every project with skill and dedication.",
+	},
+	{
+	  title: "Client-Centric Approach",
+	  description: "Your success is our priority. We listen, communicate transparently, and work collaboratively to exceed expectations.",
+	},
+  ];
+  
+
+ export const navItems = [
+	{
+	  title: "Website Design & Development",
+	  description: "We create visually stunning, responsive websites that perform brilliantly, keeping users engaged and coming back for more.",
+	},
+	{
+	  title: "Digital Recruitment",
+	  description: "Connect with skilled professionals in design, development, and marketing to bring your digital vision to life.",
+	},
+	{
+	  title: "Ecommerce & Social Media Marketing",
+	  description: "Develop social media strategies that build brand loyalty, increase engagement, and drive conversions.",
+	},
+	{
+	  title: "Search Engine Optimization (SEO)",
+	  description: "Optimize your website to stand out in search results and attract more organic traffic.",
+	},
+	{
+	  title: "Learning Resources & Training",
+	  description: "Empower your team with knowledge through tailored training sessions and digital learning resources.",
+	},
+  ];
+  

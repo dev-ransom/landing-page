@@ -37,25 +37,25 @@ const Footer = () => {
 						<div className="flex gap-3">
 							<Link
 								href=""
-								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg  transition-all duration-300"
+								className="w-10 h-10 border-[#283453] border hover:bg-baseColor  hover:text-white flex justify-center items-center text-textColor rounded-lg  transition-all duration-300"
 							>
 								<FaFacebookF size={20} />
 							</Link>
 							<Link
 								href=""
-								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300"
+								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white"
 							>
 								<FiInstagram size={20} />
 							</Link>
 							<Link
 								href=""
-								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300"
+								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white"
 							>
 								<CiTwitter size={20} />
 							</Link>
 							<Link
 								href=""
-								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300"
+								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white"
 							>
 								<FiLinkedin size={20} />
 							</Link>
