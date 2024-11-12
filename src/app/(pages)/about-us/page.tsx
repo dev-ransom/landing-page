@@ -30,7 +30,7 @@ const Page = () => {
 			</motion.section>
 
 			{/* Our Services Section */}
-			<section className="py-16 px-4">
+			<section className="lg:py-16 px-4 py-6">
 				<div className="max-w-6xl mx-auto text-center">
 					<motion.h2
 						className="text-3xl font-bold mb-10 text-white"

@@ -18,11 +18,14 @@ const cards = [
 ];
 const Footer = () => {
 	return (
-		<footer className="h-full pt-[100px] w-full bg-[#202942] flex flex-col">
+		<footer className="h-full lg:pt-[100px] pt-[50px] w-full bg-[#202942] flex flex-col">
 			<div className="flex lg:px-20 lg:pb-32 pb-8 lg:flex-row flex-col gap-4">
-				<div className=" lg:w-[33.3333%] w-full">
+				<div className="lg:w-[33.3333%] w-full">
 					<div className="flex flex-col gap-6 px-3 w-full">
-						<Link href="/">
+						<Link
+							href="/"
+							className="bg-white size-12 flex justify-center items-center rounded-lg "
+						>
 							<Image
 								src="/images/fullsnack.png"
 								width={50}
@@ -38,26 +41,49 @@ const Footer = () => {
 							<Link
 								href=""
 								className="size-10 border-[#283453] border hover:bg-baseColor  hover:text-white flex justify-center items-center text-textColor rounded-lg  transition-all duration-300"
+								legacyBehavior
+								passHref
 							>
-								<FaFacebookF size={20} />
+								<a href="http://" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white">
+									<FaFacebookF size={20} />
+								</a>
 							</Link>
 							<Link
 								href=""
-								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white"
+								legacyBehavior
+								passHref
 							>
-								<FiInstagram size={20} />
+								<a href="http://" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white">
+									<FiInstagram size={20} />
+								</a>
 							</Link>
 							<Link
-								href=""
-								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white"
+								href="https://x.com/fullsnackdevs_"
+								
+								legacyBehavior
+								passHref
 							>
-								<CiTwitter size={20} />
+								<a
+									href="https://x.com/fullsnackdevs_"
+									target="_blank"
+									rel="noopener noreferrer"
+								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white">
+									<CiTwitter size={20} />
+								</a>
 							</Link>
 							<Link
-								href=""
+								href="https://www.linkedin.com/company/thefullsnack-devs"
 								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white"
+								legacyBehavior
+								passHref
 							>
-								<FiLinkedin size={20} />
+								<a
+									href="https://www.linkedin.com/company/thefullsnack-devs"
+									target="_blank"
+									rel="noopener noreferrer"
+								className="w-10 h-10 border-[#283453] border hover:bg-baseColor flex justify-center items-center text-textColor rounded-lg transition-all duration-300 hover:text-white">
+									<FiLinkedin size={20} />
+								</a>
 							</Link>
 						</div>
 					</div>
@@ -105,7 +131,6 @@ const Footer = () => {
 							className="text-textColor"
 							inputbg="bg-[#202942]"
 							placeHolderColor="placeholder-textColor text-white"
-              
 						/>
 						<Button
 							label="Subscribe"
@@ -127,8 +152,12 @@ const Footer = () => {
 				<div className="flex gap-2 lg:pl-0 pl-3">
 					{cards.map((item, index) => (
 						<Link href={item.href} key={index}>
-              <img src={item.images} alt="cards" className="w-12 h-9 object-contain" />
-            </Link>
+							<img
+								src={item.images}
+								alt="cards"
+								className="w-12 h-9 object-contain"
+							/>
+						</Link>
 					))}
 				</div>
 			</div>

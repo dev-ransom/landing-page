@@ -3,8 +3,9 @@ import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { CiSettings, CiShoppingCart } from "react-icons/ci";
-import { IoIosMenu, IoIosClose } from "react-icons/io";
+import { IoIosClose } from "react-icons/io";
 import { useState } from "react";
+import { CgMenuLeft } from "react-icons/cg";
 
 const Navbar = ({
 	bgColor = "bg-bgColor",
@@ -21,7 +22,7 @@ const Navbar = ({
 
 	return (
 		<nav
-			className={`px-3 lg:px-20 flexBetween py-10 ${bgColor} ${boxShadow} z-[999] flex-shrink-0 w-full h-[10vh] fixed top-0 left-0 right-0 mb-1`}
+			className={`px-3 lg:px-24 flexBetween py-10 ${bgColor} ${boxShadow} z-[999] flex-shrink-0 w-full h-[10vh] fixed top-0 left-0 right-0 mb-1`}
 		>
 			<Link href="/" className="bg-white size-12 flex justify-center items-center rounded-lg">
 				<Image
@@ -70,9 +71,9 @@ const Navbar = ({
 							}`}
 						/>
 					) : (
-						<IoIosMenu
+						<CgMenuLeft
 							size={36}
-							className={`transform transition-transform duration-300 text-white ${
+							className ={`transform transition-transform duration-300 text-white ${
 								isOpen ? "rotate-90" : "rotate-0"
 							}`}
 						/>
