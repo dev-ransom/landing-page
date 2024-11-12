@@ -23,7 +23,7 @@ const Navbar = ({
 		<nav
 			className={`px-3 lg:px-20 flexBetween py-10 ${bgColor} ${boxShadow} z-[999] flex-shrink-0 w-full h-[10vh] fixed top-0 left-0 right-0 mb-1`}
 		>
-			<Link href="/">
+			<Link href="/" className="bg-white size-12 flex justify-center items-center rounded-lg">
 				<Image
 					src="/images/fullsnack.png"
 					width={50}
