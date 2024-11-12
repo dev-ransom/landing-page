@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,7 +21,7 @@ const Navbar = ({
 
 	return (
 		<nav
-			className={`max-container px-3 lg:px-20 flexBetween py-10 ${bgColor} ${boxShadow} z-[999] flex-shrink-0 w-full h-[10vh] fixed top-0 left-0 right-0 mb-1`}
+			className={`px-3 lg:px-20 flexBetween py-10 ${bgColor} ${boxShadow} z-[999] flex-shrink-0 w-full h-[10vh] fixed top-0 left-0 right-0 mb-1`}
 		>
 			<Link href="/">
 				<Image
@@ -47,22 +47,32 @@ const Navbar = ({
 					<CiSettings className="font-semibold" size={24} />
 				</div>
 				<div className="bg-baseColor transition duration-300 h-[36px] w-[36px] cursor-pointer rounded-full flex justify-center items-center text-white hover:bg-basehover">
-					<Link href="http://shop.thefullsnackdevs.com/">
-						<CiShoppingCart className="font-semibold" size={24} />
+					<Link
+						href="http://shop.thefullsnackdevs.com/"
+						passHref
+						legacyBehavior
+					>
+						<a
+							href="http://shop.thefullsnackdevs.com/"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
+							<CiShoppingCart className="font-semibold" size={24} />
+						</a>
 					</Link>
 				</div>
 				<div className="lg:hidden flex cursor-pointer" onClick={toggleMenu}>
 					{isOpen ? (
 						<IoIosClose
 							size={36}
-							className= {`transform transition-transform duration-300 text-white ${
+							className={`transform transition-transform duration-300 text-white ${
 								isOpen ? "rotate-90" : "rotate-0"
 							}`}
 						/>
 					) : (
 						<IoIosMenu
 							size={36}
-							className= {`transform transition-transform duration-300 text-white ${
+							className={`transform transition-transform duration-300 text-white ${
 								isOpen ? "rotate-90" : "rotate-0"
 							}`}
 						/>
