@@ -73,7 +73,7 @@ const Page: React.FC = () => {
 
         <form onSubmit={handleSubmit} noValidate>
           <div className="mb-4">
-            <label htmlFor="fullName" className="block text-sm font-bold text-gray-300">
+            <label htmlFor="fullName" className="block text-sm font-bold text-gray-300 italic">
               Your Full Name <span className="text-red-500">*</span>
             </label>
             <input
@@ -93,7 +93,7 @@ const Page: React.FC = () => {
           </div>
 
           <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-bold text-gray-300">
+            <label htmlFor="email" className="block text-sm font-bold text-gray-300 italic">
               Your Email Address <span className="text-red-500">*</span>
             </label>
             <input
@@ -113,7 +113,7 @@ const Page: React.FC = () => {
           </div>
 
           <div className="mb-6">
-            <label htmlFor="companyName" className="block text-sm font-bold text-gray-300">
+            <label htmlFor="companyName" className="block text-sm font-bold text-gray-300 italic">
               Your Company Name <span className="text-red-500">*</span>
             </label>
             <input
