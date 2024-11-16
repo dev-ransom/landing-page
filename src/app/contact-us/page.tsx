@@ -132,7 +132,7 @@ const Page: React.FC = () => {
             )}
           </div>
 
-        <Button label="Send Message" width="w-full"/>
+        <Button label="Send Message" width="w-full" classes="rounded-[50px] text-white"/>
         </form>
 
         
