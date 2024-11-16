@@ -129,7 +129,7 @@ const Footer = () => {
 							type="text"
 							icon={<HiOutlineEnvelope />}
 							className="text-textColor"
-							inputbg="bg-[#202942]"
+							inputbg="text-textColor[#202942]"
 							placeHolderColor="placeholder-textColor text-white"
 						/>
 						<Button
